@@ -6,3 +6,9 @@ const calculatorInstance = new Calculator()
 console.log("[CALCULATING]")
 console.log("[DONE]")
 console.log("[RESULT]: ", calculatorInstance.sumOperation(numbers))
+
+const numbersA = [5, 3]
+
+console.log("[CALCULATING]")
+console.log("[DONE]")
+console.log("[RESULT]: ", calculatorInstance.subtractionOperation(numbersA))

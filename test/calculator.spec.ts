@@ -6,4 +6,10 @@ describe('Calculator class', () => {
         const calculatorToTest = new Calculator()
         expect(calculatorToTest.sumOperation(numbers)).toBe(8)
     })
+
+    it('should execute subtract operation', () => {
+        const numbers = [5, 3]
+        const calculatorToTest = new Calculator()
+        expect(calculatorToTest.subtractionOperation(numbers)).toBe(2)
+    })
 })
