@@ -1,7 +1,7 @@
 export class Calculator {
     sumOperation(numbers: number[]): number {
         let result: number = 0
-        numbers.map(number => {
+        numbers.forEach(number => {
             result = result + number
         })
 
