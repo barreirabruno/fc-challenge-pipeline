@@ -1,4 +1,4 @@
-import { Calculator } from '../src/Calculator'
+import { Calculator } from '../Calculator'
 
 describe('Calculator class', () => {
     it('should execute sum operation', () => {
