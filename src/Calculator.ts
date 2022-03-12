@@ -19,4 +19,8 @@ export class Calculator {
 
         return result
     }
+
+    provideAGreeting(name: string): string {
+        return `Hello ${name}, how are you doing?`
+    }
 }
