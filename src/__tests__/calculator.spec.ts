@@ -12,4 +12,10 @@ describe('Calculator class', () => {
         const calculatorToTest = new Calculator()
         expect(calculatorToTest.subtractionOperation(numbers)).toBe(2)
     })
+
+    it('should greet someone', () => {
+        const result = "Hello ANY_NAME_HERE, how are you doing?"
+        const calculatorToTest = new Calculator()
+        expect(calculatorToTest.provideAGreeting("ANY_NAME_HERE")).toBe(result)
+    })
 })
