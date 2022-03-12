@@ -15,7 +15,7 @@ describe('Calculator class', () => {
 
     it('should greet someone', () => {
         const result = "Hello ANY_NAME_HERE, how are you doing?"
-        const calculatorToTest = new Calculator()
-        expect(calculatorToTest.provideAGreeting("ANY_NAME_HERE")).toBe(result)
+        const calculatorToTest = new Calculator().provideAGreeting("ANY_NAME_HERE")
+        expect(calculatorToTest).toEqual(result)
     })
 })
