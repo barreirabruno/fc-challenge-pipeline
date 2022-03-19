@@ -8,6 +8,7 @@
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:ci": "npm test -- --coverage",
     "start": "node dist/src/index.js",
+    "start:dev": "npm run build && node dist/src/index.js",
     "build": "rimraf dist && tsc -p tsconfig-build.json"
   },
   "keywords": [],
